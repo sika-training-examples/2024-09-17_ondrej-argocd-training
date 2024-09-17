@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: hello-nela
+  name: ondrej-hello-nela
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   destination:
-    namespace: examples
+    namespace: ondrej
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:

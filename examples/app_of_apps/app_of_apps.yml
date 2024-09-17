@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app-of-apps
+  name: ondrej-app-of-apps
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -18,7 +18,7 @@ spec:
     syncOptions:
       - PruneLast=true
   source:
-    repoURL: https://github.com/ondrejsika/argocd-training.git
+    repoURL: https://gitlab.sikademo.com/training/ondrej.git
     path: examples/app_of_apps/apps
     directory:
       recurse: true
