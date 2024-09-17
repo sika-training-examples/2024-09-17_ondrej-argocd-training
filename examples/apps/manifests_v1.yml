@@ -8,6 +8,12 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: ondrej
+  syncPolicy:
+    automated:
+      prune: false
+      selfHeal: false
+    syncOptions:
+      - CreateNamespace=true
   source:
     path: examples/manifests
     repoURL: https://gitlab.sikademo.com/training/ondrej.git
