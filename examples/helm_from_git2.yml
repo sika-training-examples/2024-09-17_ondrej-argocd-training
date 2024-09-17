@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ondrej-helm-from-git
+  name: ondrej-helm-from-git2
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -19,8 +19,9 @@ spec:
   source:
     repoURL: https://github.com/sikalabs/charts.git
     # targetRevision: master
-    path: charts/hello-world
+    path: charts/one-image
     helm:
-      releaseName: git
+      releaseName: git2
       valuesObject:
-        replicas: 3
+        host: hello-ondrej.k8s.sikademo.com
+        image: ondrejsika/iceland-2
