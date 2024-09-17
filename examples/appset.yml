@@ -8,17 +8,20 @@ spec:
   - list:
       elements:
       - name: foo
-        replicas: "1"
+        replicas: '1'
         text: FOO!
       - name: bar
-        replicas: "2"
+        replicas: '2'
         text: BAR!
       - name: baz
-        replicas: "3"
+        replicas: '3'
         text: BAZ!
+      - name: hello-world
+        replicas: '4'
+        text: 'Hello World!'
   template:
     metadata:
-      name: appset-{{name}}
+      name: 'appset-{{name}}'
       namespace: argocd
     spec:
       project: default
@@ -37,7 +40,7 @@ spec:
         targetRevision: 0.9.0
         helm:
           releaseName: '{{name}}'
-          values: |
+          valuesObject:
             host: 'appset-{{name}}.k8s.sikademo.com'
             TEXT: '{{text}}'
-            replicas: {{replicas}}
+            replicas: '{{replicas}}'

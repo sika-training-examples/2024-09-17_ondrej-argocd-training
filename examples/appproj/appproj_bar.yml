@@ -19,4 +19,4 @@ spec:
     kind: allow
     schedule: 2 * * * *
     timeZone: UTC
-    manualSync: false
+    manualSync: true
