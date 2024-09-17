@@ -17,10 +17,5 @@ spec:
     syncOptions:
       - CreateNamespace=true
   source:
-    repoURL: https://github.com/sikalabs/charts.git
-    # targetRevision: master
-    path: charts/hello-world
-    helm:
-      releaseName: git
-      valuesObject:
-        replicas: 3
+    repoURL: https://gitlab.sikademo.com/training/ondrej.git
+    path: examples/helm
