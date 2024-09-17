@@ -7,11 +7,11 @@ spec:
   project: default
   destination:
     server: https://kubernetes.default.svc
-    namespace: ondrej
+    namespace: ondrej2
   syncPolicy:
     automated:
       prune: true
-      selfHeal: true
+      selfHeal: false
     syncOptions:
       - CreateNamespace=true
   source:
