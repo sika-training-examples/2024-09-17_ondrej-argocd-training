@@ -4,10 +4,10 @@ metadata:
   name: bar
   namespace: argocd
 spec:
+  project: bar
   destination:
     namespace: bar
     server: https://kubernetes.default.svc
-  project: bar
   source:
     path: .
     repoURL: https://github.com/argocd-training/example-1.git
