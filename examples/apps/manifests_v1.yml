@@ -3,11 +3,13 @@ kind: Application
 metadata:
   name: ondrej-manifests
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   destination:
     server: https://kubernetes.default.svc
-    namespace: ondrej2
+    namespace: ondrej
   syncPolicy:
     automated:
       prune: true
