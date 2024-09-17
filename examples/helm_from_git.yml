@@ -17,7 +17,7 @@ spec:
     syncOptions:
       - CreateNamespace=true
   source:
-    repoURL: https://gitlab.sikademo.com/training/ondrej.git
+    repoURL: git@gitlab.sikademo.com:training/ondrej.git
     path: examples/helm
     helm:
       releaseName: example

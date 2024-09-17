@@ -8,22 +8,35 @@ metadata:
 stringData:
   project: default
   type: git
-  url: git@gitlab.sikademo.com:ondrejsika/private.git
+  url: git@gitlab.sikademo.com:training/ondrej.git
   username: ondrejsika
   sshPrivateKey: |
-    -----BEGIN RSA PRIVATE KEY-----
-    MIICXAIBAAKBgQClo4yjxfJ5LLr6TX9NbI83RQoVlRvqyvUrRXEiZTHWv5ZFtrHP
-    6s1BZAMYV73PWN2h/YciQF2FsXkkoV7Nt3IJQJILLXVMVqeqxsgN9+GFGBv5vXvq
-    //EaBXfAoi/E/0+NCsjLFFYmbIEQyw0tT0lGM9g3bUT+vjbi2/Zh3PsJDQIDAQAB
-    AoGAbi9ZwyhOoCUNTKx43rw0mQOoLas/IvVYGizbkZHXkY9pG37o0fLUD4fEN1FG
-    xsPKy5OnbTV8AQ+KEr/2HMrHZCYCUoLMg3L2zuOG99n1+ahFJFkQ0KaYgdx1yaWK
-    Llmgq+uT17WqZEarGSUx3v5FtN/WJaMDawsRIAtW2HnOU9ECQQDFKqD71Noge6nP
-    g7jgmr9cwCPj0awpHtemca2aGhcSNr+5U4cXOw8w31lSXtN3Of+QYNgFhxLFb/vM
-    +VqQx2cHAkEA1xCNO2FR0v2acuYfxE4CUZj41cJVoFhOCgt23He+fJHaJDKECF4v
-    iYXcTKtp7sTSnsxARrwH1oGj+RSKnhDWSwJBAIrIteZt7lhdE6upSZJ3+ulbqier
-    qCaNujhD3nIRmVnNxei6veWBQfEh1irf6rQK1DSZppVFfdYSPEkM4E32vjMCQEG0
-    JtG7W7owDF2J/K6GfqLbLzpvEqXYFI9xDTExzBpWnORuInREAhXrtXAe9lAiBY7K
-    K+DwVRytoqDYK7k6v50CQF/HUGpZ1cWmtiY5k3U+s7H9EzZvXDl4XB4pDgxuooNu
-    qMsq1dlCcYnwbIOtfPgkHtbxgQ/2shGbx++WfpzwoLA=
-    -----END RSA PRIVATE KEY-----
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcn
+    NhAAAAAwEAAQAAAQEArLJago8RtyBgR3x37L3DrV0iKqZIs7g8o4uHrtpssX6A4DPDlGpf
+    967EFN9oTFlMUv62nT4qGHy8cCcqzScYPcLvjmFHnuBBmw/BWRZnoibMBRJn33+/vBcE9V
+    jRLe1p55kRb8ui3zdBf1CK4b8wKSgF3lvF+2l5qrNcDBLBYjbYzmxkNu0aKCds9EVdED04
+    tXlrmK6Hd5IxOVObn9Ipea3Rwx/WYvp7LtrAh1gobusqSIELKrgby7/U0isQZAeJjaYep3
+    KS4f0iOQhDylOC0MHuJhB01dSPN8u9DWoXDaa6+9QGgdz6Nahtk8FDfJUilE+DB7MqiN9h
+    lsTQU4i1gQAAA7iCF8gaghfIGgAAAAdzc2gtcnNhAAABAQCsslqCjxG3IGBHfHfsvcOtXS
+    IqpkizuDyji4eu2myxfoDgM8OUal/3rsQU32hMWUxS/radPioYfLxwJyrNJxg9wu+OYUee
+    4EGbD8FZFmeiJswFEmfff7+8FwT1WNEt7WnnmRFvy6LfN0F/UIrhvzApKAXeW8X7aXmqs1
+    wMEsFiNtjObGQ27RooJ2z0RV0QPTi1eWuYrod3kjE5U5uf0il5rdHDH9Zi+nsu2sCHWChu
+    6ypIgQsquBvLv9TSKxBkB4mNph6ncpLh/SI5CEPKU4LQwe4mEHTV1I83y70NahcNprr71A
+    aB3Po1qG2TwUN8lSKUT4MHsyqI32GWxNBTiLWBAAAAAwEAAQAAAQBDO2Q1M9Gnw3j4G6Ls
+    jawiUAG/LOFc5jrlSKrYDb0HFMLDhiN8IjWeTXGU1qzaHGG0ZeleKhdlVRpfZ0AogjHTyZ
+    JNkd26IoAoB+gz8J8D56rBxrqdrjRM24FYqu00vhreyR6asWKFGBPtpsOKw03Sl/xA5uWa
+    zSNKq20IXjzfKOqGTJmhg7DFDMVydl+77s1kdr4tfHYtZM9DSvKCudQiD0rDw05tRVVwFG
+    ChChDIpHQpYnjMA0tDr3vWR0qASN6DhTTXDUpaagBfTK3xGutqLFm/hN8toQrlLHaLwEv7
+    HgleXIMgbt2LMH1j/hLT9tcAqsLRDQaUVWpDxxcdyKSpAAAAgBf1uQH5G0I3JbruchfaEn
+    PbEwBe/nxaYNIZ2HGDMz6XIFTLOUlYbnWRYBnZ5MHV2zOTAKtpBeKBlKcBqElfTPftW1vg
+    2Q/n4okyfQfqqqFcTNP662JSjKplLwsIhef6+/ADGpUyHFAb4ovukfjT/Kq54imNugfhQm
+    PARQ3gW/PaAAAAgQC9vDWHPUmeIKfnLseUytLYX0w6JWSjQXiwuBUsiIyFHzSav831zwax
+    lTtX5HfMNBe1GG85wBRek/fObFPHR6zE5BjZiogbtOuvnBMqTf+VyT2NftWwwnR85jQxxe
+    RneAiU98TalopYbFJ8U11vnnO6zNtjjmgKoKS0/SEAOqRZXwAAAIEA6QLFbDw6pkOGPXnr
+    VA7EPrYEY8HOVvpzCUNk3XHkoKReE1KQufuFyngIHQcvuooeuPokYOntIgbZd+bIaGZuAT
+    3u389fw/odCe2tlj82w0ITf8dznCLyBD/RlPMhWfuUguJEVdSgaduoLD6wiX9a/TnhYAhV
+    55B0Ume9G+IR/R8AAAAAAQID
+    -----END OPENSSH PRIVATE KEY-----
+  # pubic key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsslqCjxG3IGBHfHfsvcOtXSIqpkizuDyji4eu2myxfoDgM8OUal/3rsQU32hMWUxS/radPioYfLxwJyrNJxg9wu+OYUee4EGbD8FZFmeiJswFEmfff7+8FwT1WNEt7WnnmRFvy6LfN0F/UIrhvzApKAXeW8X7aXmqs1wMEsFiNtjObGQ27RooJ2z0RV0QPTi1eWuYrod3kjE5U5uf0il5rdHDH9Zi+nsu2sCHWChu6ypIgQsquBvLv9TSKxBkB4mNph6ncpLh/SI5CEPKU4LQwe4mEHTV1I83y70NahcNprr71AaB3Po1qG2TwUN8lSKUT4MHsyqI32GWxNBTiLWB 
   # insecure: "true"
