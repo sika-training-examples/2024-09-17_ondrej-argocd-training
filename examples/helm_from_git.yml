@@ -19,3 +19,7 @@ spec:
   source:
     repoURL: https://gitlab.sikademo.com/training/ondrej.git
     path: examples/helm
+    helm:
+      releaseName: example
+      valuesObject:
+        replicas: 2
