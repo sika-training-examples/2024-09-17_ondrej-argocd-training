@@ -17,5 +17,5 @@ spec:
     syncOptions:
       - CreateNamespace=true
   source:
-    path: examples/manifests
+    path: examples/manifests/deployment.yml
     repoURL: https://gitlab.sikademo.com/training/ondrej.git
