@@ -9,7 +9,7 @@ spec:
     namespace: bar
     server: https://kubernetes.default.svc
   source:
-    path: examples/manifests/deployment.yml
+    path: examples/manifests/
     repoURL: https://gitlab.sikademo.com/training/ondrej.git
   syncPolicy:
     automated:
