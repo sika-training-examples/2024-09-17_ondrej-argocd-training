@@ -14,6 +14,6 @@ spec:
         command:
           - /bin/bash
           - -c
-          - slu mail send -H maildev.sikademo.com -P 25 -f example@example.com -t example@sikademo.com -s "Post Sync Hook" -m "Hello from Post Sync Hook"
+          - echo slu mail send -H maildev.sikademo.com -P 25 -f example@example.com -t example@sikademo.com -s "Post Sync Hook" -m "Hello from Post Sync Hook"
       restartPolicy: Never
   backoffLimit: 0
